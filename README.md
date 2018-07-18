@@ -1,8 +1,6 @@
-# Data Science
+# Data Science Pipeline
 
-## data science pipeline
-
-### Data collection and processing
+## Data collection and processing
 
 Ingest data from unstructured and structured sources, and use relational models, time series algorithms, graph and network processing, natural language processing, geographic information system processes to store and manage the data.
 
@@ -11,7 +9,7 @@ Ingest data from unstructured and structured sources, and use relational models,
 - Graph and network processing
 - Free text and natural language processing
 
-### Statistical modeling
+## Statistical modeling
 
 Apply basic statistical techniques and analyses to understand properties of the data and to design experimental setups for testing hypotheses or collecting new data.
 
@@ -25,7 +23,7 @@ Apply basic statistical techniques and analyses to understand properties of the 
 - Naive Bayes
 - Hypothesis testing and experimental design
 
-### Advanced ML techniques
+## Advanced ML techniques
 
 Apply advanced machine learning algorithms such as kernel methods, boosting, deep learning, anomaly detection, factorization models, and probabilistic modeling to analyze and extract insights from data.
 
@@ -35,7 +33,7 @@ Apply advanced machine learning algorithms such as kernel methods, boosting, dee
 - Decision trees, interpretable models
 - Deep learning
 
-### Data visualization
+## Data visualization
 
 Visualize the data and results from analysis, particularly focusing on visualizing and understanding high-dimensional structured data and the results of statistical and machine learning analysis.
 
@@ -47,13 +45,13 @@ Visualize the data and results from analysis, particularly focusing on visualizi
   - Interval: numerical data, zero has no fixed meaning  
   - Ratio: numerical data, zero has special meaning
 
-### Big data
+## Big data
 
 Scale the methods to big data regimes, where distributed storage and computation are needed to fully realize capabilities of data analysis techniques.
 
 - MapReduce
 
-### Data science debugging
+## Data science debugging
 
 Learn to diagnose problems with data science pipelines, finding problems in data collection, problem setup, machine learning models, and conclusions.
 
