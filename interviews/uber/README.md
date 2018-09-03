@@ -18,6 +18,7 @@
 
 ### 泊松分布
 
+https://www.zhihu.com/question/26441147
 
 ## 统计
 
@@ -25,3 +26,31 @@
 
 p-value的计算：计算chi-suqare，计算自由度，查卡方分布表。
 P-value越小就越能否定H0。
+
+### confidence level
+
+### power, type I, type II error
+
+### k-means
+
+1. 如何决定k
+2. 一定converge吗
+3. k-means和gaussian mixture model 区别
+
+## machine learning
+
+1. DT pro&con
+2. RF
+3. boosting tree，和rf的区别
+4. boosting 如何实现
+5. ada boosting和gradient boosting相同点和区别
+
+## coding
+dfs
+bfs
+complexity
+
+## behavior+brain storming
+遇到困难怎么办
+如何和非technical stakeholders交流
+估计加油站数目
