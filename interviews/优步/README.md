@@ -1,0 +1,56 @@
+# 优步 
+
+## 概率论
+
+### 掷骰子
+
+有一个普通6面骰子，游戏者最多掷三次，可以选择掷一次或两次后停止。奖金是最后一次的骰子的点数。比如最后一次是6点，获得6美元。如果是3点，获得3美元。请问如何找出最佳策略这样游戏者可以获得最多的奖金？
+
+--
+
+动态规划问题 
+
+对于第一次，我们知道如果掷第二次，可能的平均收益是4+5+6+3.5*3。
+这里3.5*3是指第二次如果掷出1、2、3，我们肯定要掷第三次，所以掷1、2、3的平均收益都是3.5。
+这样第二次掷的平均收益是(4+5+6+3.5*3)/6=4.25 > 4。
+所以总的策略是，第一次掷出5、6不再掷，如果1、2、3、4掷第二次；第二次掷出4、5
+、6不再掷，如果1、2、3掷第三次。
+
+### 泊松分布
+
+https://www.zhihu.com/question/26441147
+
+## 统计
+
+### p value
+
+p-value的计算：计算chi-suqare，计算自由度，查卡方分布表。
+P-value越小就越能否定H0。
+
+### confidence level
+
+### power, type I, type II error
+
+### k-means
+
+1. 如何决定k
+2. 一定converge吗
+3. k-means和gaussian mixture model 区别
+
+## machine learning
+
+1. DT pro&con
+2. RF
+3. boosting tree，和rf的区别
+4. boosting 如何实现
+5. ada boosting和gradient boosting相同点和区别
+
+## coding
+dfs
+bfs
+complexity
+
+## behavior+brain storming
+- 遇到困难怎么办
+- 如何和非technical stakeholders交流
+- 估计加油站数目
