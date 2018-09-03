@@ -2,7 +2,7 @@ import re
 
 
 class Solution:
-    def mostFrequentWords(self, s):
+    def mostFrequentWordsNotInExclude(self, s, ex):
         new_s = []
         for ch in s:
             if ch != ch.lower():
@@ -12,12 +12,13 @@ class Solution:
         new_s = ''.join(new_s)
         words = re.split(r'[\s\'\.]', new_s)
 
-        print(words)
+        # print(words)
+        ex = set([exx.lower() for exx in ex])
 
         maxCount = 0
         count = {}
         for word in words:
-            if word == ' ' or word == '':
+            if word == ' ' or word == '' or word in ex:
                 continue
             if word in count.keys():
                 count[word] += 1
@@ -26,7 +27,7 @@ class Solution:
 
             maxCount = max(maxCount, count[word])
 
-        print(count)
+        # print(count)
 
         result = []
         # find the largest
@@ -38,6 +39,6 @@ class Solution:
 
 
 s = Solution()
-string = "I am Jack and my father is Jimmy. I like wearing Jack and Jone's. "
-
-print(s.mostFrequentWords(string))
+string = "Jack and Jill went to the market to buy bread and cheese. Cheese is Jack's and Jill's favorite food."
+exclude = ['and', 'he', 'the', 'to', 'is', 'Jack', 'Jill']
+print(s.mostFrequentWordsNotInExclude(string, exclude))
