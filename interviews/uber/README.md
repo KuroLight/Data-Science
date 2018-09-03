@@ -51,6 +51,6 @@ bfs
 complexity
 
 ## behavior+brain storming
-遇到困难怎么办
-如何和非technical stakeholders交流
-估计加油站数目
+- 遇到困难怎么办
+- 如何和非technical stakeholders交流
+- 估计加油站数目
